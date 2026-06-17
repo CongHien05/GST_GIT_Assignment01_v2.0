@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         val buttonGoodbye = findViewById<Button>(R.id.buttonGoodbye)
 
         button.setOnClickListener {
-            textView.text = "hello"
+            textView.text = "xin chào"
         }
 
         buttonGoodbye.setOnClickListener {
