@@ -22,9 +22,14 @@ class MainActivity : AppCompatActivity() {
 
         val textView = findViewById<TextView>(R.id.textView)
         val button = findViewById<Button>(R.id.button)
+        val buttonGoodbye = findViewById<Button>(R.id.buttonGoodbye)
 
         button.setOnClickListener {
             textView.text = "hello"
+        }
+
+        buttonGoodbye.setOnClickListener {
+            textView.text = "tạm biệt"
         }
     }
 }
