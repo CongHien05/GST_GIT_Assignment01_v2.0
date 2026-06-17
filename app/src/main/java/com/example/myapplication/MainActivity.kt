@@ -34,8 +34,12 @@ class MainActivity : AppCompatActivity() {
     }
     private Double calculate(sign:SIGN,a:Double,b:Double){
            switch(sign){
+<<<<<<< HEAD
             case PLUS: return a+b;
             case MINUS: return a-b;
+=======
+            case MULTIPLY: return a*b;
+>>>>>>> 0079293 (Thêm chức năng phép nhân)
             default: break;
         }
         return 0.0;
