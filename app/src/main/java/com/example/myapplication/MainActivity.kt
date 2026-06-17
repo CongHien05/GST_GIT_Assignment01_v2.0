@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
     private Double calculate(sign:SIGN,a:Double,b:Double){
            switch(sign){
             case PLUS: return a+b;
+            case MINUS: return a-b;
             default: break;
         }
         return 0.0;
