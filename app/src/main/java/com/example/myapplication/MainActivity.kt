@@ -32,4 +32,13 @@ class MainActivity : AppCompatActivity() {
             textView.text = "tạm biệt"
         }
     }
+    private Double calculate(sign:SIGN,a:Double,b:Double){
+           switch(sign){
+            case PLUS: return a+b;
+            case MINUS: return a-b;
+            case MULTIPLY: return a*b;
+            default: break;
+        }
+        return 0.0;
+    }
 }
